@@ -15,7 +15,8 @@
   },
   "homepage": "https://github.com/kh-min7/Movie_API_with_Graphql#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.3",
