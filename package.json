@@ -1,0 +1,31 @@
+{
+  "name": "graphql_movie",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kh-min7/Movie_API_with_Graphql.git"
+  },
+  "author": "rudgh2879@naver.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kh-min7/Movie_API_with_Graphql/issues"
+  },
+  "homepage": "https://github.com/kh-min7/Movie_API_with_Graphql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.4",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
+  }
+}
